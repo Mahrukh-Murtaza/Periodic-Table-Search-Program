@@ -1,0 +1,78 @@
+
+Periodic Table Search Program
+Mahrukh Murtaza
+Department of Computer System Engineering
+(IBA Sukkur)
+email: mahrukhmurtaza085@gmail.com
+(Instructor:  Sir Irfan Younas Mughal)
+ 
+ABSTRACT
+The Periodic Table Search Program is a C++ based console application designed to assist students, researchers, and chemistry enthusiasts in retrieving detailed information about chemical elements quickly. The program stores all 118 elements of the periodic table along with their symbols, atomic numbers, atomic masses, group, period, category, and fun facts. Using a simple search function, users can input the element name, and the program displays all related information. This project improves learning efficiency and demonstrates practical use of arrays, string handling, and search algorithms in C++.
+1. INTRODUCTION
+The periodic table is fundamental in chemistry, providing essential information about elements. Traditionally, students refer to printed tables or online resources to learn about elements, which can be time-consuming. A digital solution, such as a C++ program, allows instant search and retrieval of element properties. This project aims to develop a console-based application that provides a comprehensive search of elements and their properties.
+2. PROBLEM STATEMENT
+Manual lookup of chemical elements in textbooks or online sources is inefficient and time-consuming. Students and researchers require a quick and reliable method to access element details. This project addresses the need for a digital tool that allows easy and fast search of element data from the periodic table using C++ programming.
+________________________________________
+3. OBJECTIVES
+•	Develop a user-friendly C++ console program for element search.
+•	Store detailed information for all 118 elements.
+•	Enable search by element name and display symbol, atomic number, mass, group, period, category, and fun facts.
+•	Demonstrate practical use of arrays, string handling, and loops in C++.
+4. LITERATURE REVIEW
+Several digital periodic table applications exist; however, most require a GUI or internet connection. Basic C++ programs typically focus on atomic number or symbol search without providing additional information like atomic mass or fun facts. This project builds upon existing work by incorporating a comprehensive data set, full element details, and interactive console-based search functionality.
+________________________________________
+5. PROPOSED SOLUTION
+The proposed solution involves storing element data in arrays. The program takes user input (element name), formats it to match stored data, and iterates through arrays to find the corresponding element. Upon a match, all relevant information is displayed. This approach ensures fast retrieval, low memory usage, and portability across C++ compilers.
+________________________________________
+6. SYSTEM REQUIREMENTS
+Hardware Requirements:
+•	Minimum 2 GB RAM
+•	Processor: Intel Core i3 or equivalent
+Software Requirements:
+•	Operating System: Windows/Linux
+•	C++ Compiler: Code::Blocks, Dev-C++, or Visual Studio
+•	Programming Language: C++
+________________________________________
+7. SYSTEM DESIGN
+The system uses a menu-driven approach:
+1.	User selects search option.
+2.	User inputs the element name.
+3.	Program converts input to proper case.
+4.	Program searches arrays for matching element.
+5.	If found, details are displayed; else, “Element not found” is shown.
+8. Data Arrays Used:
+•	elements[] – Names of 118 elements
+•	symbols[] – Symbols of elements
+•	atomicNumber[] – Atomic numbers
+•	atomicMass[] – Atomic masses
+•	group[] – Group information
+•	period[] – Period information
+•	category[] – Category of element
+•	funFact[] – Interesting fact about the element
+9. IMPLEMENTATION (CODE   EXPLANATION)
+The program is written entirely in C++. The implementation uses arrays to store all data and a simple for-loop to search for the user input.
+Key Sections of Code:
+1.	Include libraries and arrays – Stores element names, symbols, numbers, masses, categories, periods, and fun facts.
+2.	User Input – User enters element name, input is formatted with first letter capitalized.
+3.	Search Logic – Iterates through arrays to match element name.
+4.	Output – Displays all element information if found.
+11. RESULT & DISCUSSION
+The program successfully searches and displays details for any element by name. All 118 elements are stored, making it a complete reference. The program runs efficiently in console mode, handles user input capitalization, and provides an informative fun fact. Limitations include lack of search by symbol or atomic number, which can be added in future enhancements.
+________________________________________
+12. CONCLUSION
+The Periodic Table Search Program is a useful tool for students and chemistry enthusiasts. It demonstrates the practical application of arrays, string manipulation, and loops in C++. The program meets objectives by providing fast, accurate, and interactive search functionality for all elements.
+________________________________________
+13. FUTURE WORK
+•	Add search by atomic number and symbol.
+•	Implement GUI for better user experience.
+•	Include additional properties such as electron configuration, oxidation states, and discovery year.
+•	Add sorting and filtering by category or period.
+________________________________________
+14. REFERENCES
+1.	Bjarne Stroustrup, The C++ Programming Language, 4th Edition, Addison-Wesley, 2013.
+2.	Bruce Eckel, Thinking in C++, 2nd Edition, Prentice Hall, 2000.
+3.	D. E. Goldberg, Periodic Table of Elements, Online Chemistry Resources.
+4.	C++ Documentation, https://cplusplus.com/.
+
+
+
